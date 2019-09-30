@@ -135,9 +135,8 @@ while True:
         p=fruits.index(fruit)
         print("%s 在串列中的第 %d 項" %(fruit,p+1))
     else:
-        print(fruit,"不在串列中!")
-     ```    
-        
+        print(fruit,"不在串列中!")   
+     ```
 ### 程式閱讀題:下列程式執行後會印出什麼？
 ```
 n = int(input("請輸入正整數："))
