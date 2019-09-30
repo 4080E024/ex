@@ -136,18 +136,17 @@ while True:
         print("%s 在串列中的第 %d 項" %(fruit,p+1))
     else:
         print(fruit,"不在串列中!")
-        ```
+        ```    
         
 ### 程式閱讀題:下列程式執行後會印出什麼？
 ```
-
 n = int(input("請輸入正整數："))
 
 for i in range(1, n+1):
     if i % 5 ==0:
         continue
-    print(i,end=" ")
-    ```
+    print(i,end=" ") 
+ ```
 ### 程式設計題:1+2+3+....n的計算
 
 ```
