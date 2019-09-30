@@ -140,6 +140,7 @@ while True:
         
 ### 程式閱讀題:下列程式執行後會印出什麼？
 ```
+
 n = int(input("請輸入正整數："))
 
 for i in range(1, n+1):
