@@ -27,8 +27,8 @@ Unit 5:重複執行的作業
 
 Ch16-19
 
-#range的技術
-####range的技術(1)
+# range的技術
+### range的技術(1)
 ```
 list1=range(6)
 list1
@@ -36,7 +36,7 @@ list1
 ```
 答案是:[0, 1, 2, 3, 4, 5]
 ```
-####range的技術(2)
+### range的技術(2)
 ```
 list2=range(1,6)
 list2
@@ -44,7 +44,7 @@ list2
 ```
 答案是:[1, 2, 3, 4, 5]
 ```
-####range的技術(3)
+### range的技術(3)
 ```
 list3=range(1,6,2)
 list3
@@ -52,7 +52,7 @@ list3
 ```
 答案是:[1, 3, 5]
 ```
-range的技術(4)
+### range的技術(4)
 for dd in range(6):
    print(dd)
 答案是:
