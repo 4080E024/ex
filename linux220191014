@@ -1,7 +1,6 @@
-# ifconfig
+### ifconfig
 
 ```
-
 ~# ifconfg
 bash: ifconfg: command not found
 ~# ifconfig
@@ -22,15 +21,14 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         TX packets 22  bytes 1270 (1.2 KiB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-
 ```
-
 ```
 有3個介面(interfaces):
 [1]docker 0
 [2]eth0 實體網卡
 [3]lo==loaclhost每一台電曩都會有本地端位址  127.0.0.1
 ```
+
 ```
 解釋下列資訊的意義:
 mtu 1500
@@ -42,11 +40,9 @@ ether 08:00:27:b4:cd:7b
 ```
 問題1.IP位址==?  
 問題2.mtu 1500  最大傳輸單元Maximum Transmission Unit  https://en.wikipedia.org/wiki/Maximum_transmission_unit
-問題1.MAC address==實體網卡位址==>ether 08:00:27:b4:cd:7b
-問題1.broadcast address==https://en.wikipedia.org/wiki/Broadcast_address
-
-問題1.lo==localhost address=?
-
+問題3.MAC address==實體網卡位址==>ether 08:00:27:b4:cd:7b
+問題4.broadcast address==https://en.wikipedia.org/wiki/Broadcast_address
+問題5.lo==localhost address=?
 ```
 # ping 172.20.164.220  
 
@@ -61,12 +57,46 @@ root@kali:~# pwd
 root@kali:~# cd ..
 root@kali:/# pwd
 /
+```
+# linux pwd 
+```
+https://hungwei0331.pixnet.net/blog/post/352643434-linux---pwd%E6%8C%87%E4%BB%A4
+pwd為print name of current/working directory的縮寫
 
+顧名思義pwd用於顯示目前所在目錄的指令,
+想要知道目前所在的目錄，可以輸入pwd即可：
+1. 列出目前的工作目錄:
+#pwd
+
+2. 顯示出實際的工作目錄，而非連結檔本身的目錄名
+#pwd -P
+
+3. 目錄連接鏈結時，輸出連接路徑
+#pwd -L
+
+bin==binary 執行檔
+
+root@kali:/# cd bin
+root@kali:/bin# pwd -L
+/bin
+root@kali:/bin# pwd -P
+/usr/bin
+
+回到上層目錄===>cd ..
+```
+### 測驗:說明底下程式的意義
+```
+root@kali:/bin# cd ..回到上層目錄
+root@kali:/# cd 回到跟目錄
+root@kali:~# 
 ```
 ```
 root@kali:/# ls
-0     dev   initrd.img      lib64       mnt   root  srv  usr      vmlinuz.old
-bin   etc   initrd.img.old  lost+found  opt   run   sys  var
-boot  home  lib             media       proc  sbin  tmp  vmlinuz
-
+0     etc             lib     lost+found  proc  srv  var
+bin   home            lib32   media       root  sys  vmlinuz
+boot  initrd.img      lib64   mnt         run   tmp  vmlinuz.old
+dev   initrd.img.old  libx32  opt         sbin  usr
 ```
+
+### 作業一:說明linux 上述的目錄結構
+
