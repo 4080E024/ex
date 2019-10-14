@@ -1,6 +1,7 @@
 # ifconfig
 
 ```
+
 ~# ifconfg
 bash: ifconfg: command not found
 ~# ifconfig
@@ -23,6 +24,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
 
 ```
+
 ```
 有3個介面(interfaces):
 [1]docker 0
