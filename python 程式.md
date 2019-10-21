@@ -50,3 +50,13 @@ index = 0
 while index > 1:
 	print("H, 陳xx")
 ```
+```
+names = ['christopher','Susan']
+index = 0
+while index < len(names):
+  print(names[index])
+  #Change the condition!!
+  index = index+1
+答案是:christopher
+Susan
+```
