@@ -4,6 +4,7 @@
 ```
 # 10-1
 print("hello!")
+答案:hello
 print(3*2*(17-2.1))
 print("abc"+"def")
 word = "art"
