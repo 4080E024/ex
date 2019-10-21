@@ -31,9 +31,11 @@ print(word.replace("r", "n"))
 3.print("abc""+""def""+""ghi")會印出甚麼結果:
 (A)出現錯誤,無法印出   (B)abc+def+ghi (C)abc""+""def""+""ghi" (D)abcdef
 答案是:B
-(列印"A"==A" "+"==+ "B"==B
-print("abc"+"def")會印出甚麼結果:
-(A)出現錯誤,無法印出   (B)abc+def  (C)abc""+""def  (D)abcdef
+(列印"A"==A" "+"==+ "B"==B)
+print("abc"+"def"+"ghi")會印出甚麼結果:
+(A)出現錯誤,無法印出   (B)abc+def+ghi  (C)abc""+""def"+""ghi"  (D)abcdefghi
+答案是:D
+("A"+"B"==AB)
 ```
 ```
 # 10-2
