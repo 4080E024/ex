@@ -29,7 +29,17 @@ print(sum)
 答案是:5050
 
 ```
+使用For 迴圈(loop)計算sum=0
 
+for x in range(1,101,2):
+  sum +=x
+  
+print(sum)  
+答案是:2500
+
+```
+
+```
 使用For 迴圈(loop)計算1+2+3+.....100
 ```
 # while 迴圈(loop)
