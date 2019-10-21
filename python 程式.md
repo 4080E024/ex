@@ -38,21 +38,15 @@ for x in range(1,101,2):
 print(sum)  
 答案是:2500
 ```
-
-```
-使用For 迴圈(loop)計算1+2+3+.....100
-```
 # while 迴圈(loop)
-
-### 程式設計題
-
+### 程式閱讀題:
 ```
-使用For 迴圈(loop)計算1+3+5+7.....+99
-```
-### 程式設計題
-```
-使用while 迴圈(loop)計算1+2+3+.....100
+index = 0
+while index < 1:
+	print("Hi, 陳xx")
 ```
 ```
-使用while 迴圈(loop)計算1+3+5+7.....+99
+index = 0
+while index > 1:
+	print("H, 陳xx")
 ```
