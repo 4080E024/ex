@@ -42,7 +42,7 @@ while index < len(names):
 (B)names[1]是 你 
 (C)程式執行完後,index最後為2
 (D)如果把條件改成 index > len(names),中index最後為2
-答案是:A,D
+答案是:A,
 ```
 # 程式設計題
 ```
